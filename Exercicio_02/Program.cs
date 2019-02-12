@@ -10,6 +10,15 @@ namespace Exercicio_02
     {
         static void Main(string[] args)
         {
-        }
+            //Desenvolva um algoritmo que permita a entrada do nome do usuário e exiba na tela.
+            string nome;
+
+            Console.Write("Digite seu nome: ");
+            nome = Console.ReadLine();
+
+            Console.WriteLine("O nome digitado é: " +nome);
+
+            Console.ReadKey();
+        }     
     }
 }
